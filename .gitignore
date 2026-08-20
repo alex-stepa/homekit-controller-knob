@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+.env
+
+# Rust / cargo
+target/
+
+# PlatformIO
+.pio/
+.pioenvs/
+
+# Config / secrets
+backend/config.toml
+backend/pairing_state/
+firmware/src/config.h
+
+# IDE
+.idea/
+.vscode/
+*.DS_Store
