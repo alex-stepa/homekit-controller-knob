@@ -22,6 +22,12 @@ backend/config.toml
 backend/pairing_state/
 firmware/src/config.h
 
+# Go
+bin/
+*.exe
+go.sum
+*.test
+
 # IDE
 .idea/
 .vscode/
